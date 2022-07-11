@@ -38,6 +38,12 @@
     }
 }
 
+@media screen and (max-width:480px){
+    .construccion-construcc{
+        font-size: x-large;
+    }
+}
+
 .en-cosntruccion-body{
     background-image: none;
     background-color: black;
@@ -48,7 +54,8 @@
 
     .construccion{
         font-family: SuperMario;
-        font-size: 200%;
+        width: 100%;
+        font-size: xx-large;
         font-weight: bold;
         text-shadow: -2px 2px 3px white;
         @extend .flex-column-center;
