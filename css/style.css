@@ -1,0 +1,353 @@
+.flex-column-center, .presentaciones .index-section .contenido-index, .index-main .index-section .contenido-index, .players .index-section .contenido-index, header .offcanvas-start, .contenido, .juegos-body .portada, .contenido .video-container, .ubicacion-contacto, .players .index-section .contenido-index .descrip-local .num-promo, .players .index-section .contenido-index .descrip-local .num-promo .lista-promos .imagen-360, .players .index-section .contenido-index .descrip-local .especiales, .en-cosntruccion-body .construccion {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center; }
+
+.shadow, .contenido .opcion:hover, .juegos-body .portada:hover, .ubicacion-contacto .contacto-images:hover {
+  transform: scale(1.08);
+  box-shadow: 0px 0px 44px 17px white;
+  -webkit-box-shadow: 0px 0px 44px 17px white;
+  -moz-box-shadow: 0px 0px 44px 17px white; }
+
+.boton-volver .btn-danger, .juegos-body footer .btn-danger, footer .btn-danger, .en-cosntruccion-body footer .btn-danger {
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+  width: 10rem;
+  transition: all 0.5s;
+  z-index: 4; }
+  .boton-volver .btn-danger:hover, .juegos-body footer .btn-danger:hover, footer .btn-danger:hover, .en-cosntruccion-body footer .btn-danger:hover {
+    transform: scale(1.08);
+    background-color: white;
+    color: red; }
+  .boton-volver .btn-danger:active, .juegos-body footer .btn-danger:active, footer .btn-danger:active, .en-cosntruccion-body footer .btn-danger:active {
+    background-color: #dc3545;
+    color: white; }
+
+.presentaciones .index-section, .index-main .index-section, .players .index-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 4.5rem; }
+  .presentaciones .index-section .contenido-index, .index-main .index-section .contenido-index, .players .index-section .contenido-index {
+    color: white;
+    text-align: center;
+    width: 95%; }
+    .presentaciones .index-section .contenido-index .nombre-local, .index-main .index-section .contenido-index .nombre-local, .players .index-section .contenido-index .nombre-local {
+      font-weight: bold;
+      font-size: 50px;
+      text-shadow: 0 0 15px fuchsia;
+      text-decoration: underline; }
+    .presentaciones .index-section .contenido-index .descrip-local, .index-main .index-section .contenido-index .descrip-local, .players .index-section .contenido-index .descrip-local {
+      margin-top: 3rem;
+      background-color: rgba(14, 14, 14, 0.6);
+      border-radius: 5px;
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      border: 1px solid white; }
+
+header .navbar-toggler {
+  background-color: white; }
+  header .navbar-toggler:active {
+    background-color: orangered; }
+
+header .offcanvas-header {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-top: 2rem; }
+  header .offcanvas-header .btn-close {
+    background-color: white;
+    padding-left: 1.5rem; }
+    header .offcanvas-header .btn-close:active {
+      background-color: red; }
+
+header .offcanvas-start {
+  width: 100%; }
+  header .offcanvas-start .offcanvas-body .offcanvas-title {
+    padding-left: 1rem;
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: x-large; }
+  header .offcanvas-start .offcanvas-body .btn {
+    width: 110%;
+    font-weight: bold;
+    margin-top: 1.5rem; }
+    header .offcanvas-start .offcanvas-body .btn:hover {
+      background-color: blueviolet;
+      color: white; }
+    header .offcanvas-start .offcanvas-body .btn:active {
+      background-color: orangered; }
+
+header .logo {
+  width: 60px; }
+
+.contenido {
+  width: 100%;
+  padding-top: 4.5rem;
+  z-index: -1;
+  margin-bottom: 2rem; }
+  .contenido .opcion {
+    margin-top: 2rem;
+    transition: all 1s;
+    border-radius: 1rem;
+    background-color: #280032; }
+    .contenido .opcion .btn {
+      background-color: white;
+      font-weight: bold;
+      color: black; }
+      .contenido .opcion .btn:hover {
+        border: 1px solid orangered; }
+      .contenido .opcion .btn:active {
+        background-color: orangered;
+        color: white; }
+
+@media screen and (max-width: 1023px) {
+  .containers {
+    width: 100%;
+    padding-bottom: 6.5rem;
+    padding-top: 5rem; }
+    .containers .img-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; }
+    .containers .img-container2 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center; } }
+
+@media screen and (min-width: 1024px) {
+  .containers {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+    .containers .img-container {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%; }
+    .containers .img-container2 {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+      width: 100%; } }
+
+.juegos-body {
+  height: 100vh; }
+  .juegos-body .portada {
+    width: 20rem;
+    margin-top: 2rem;
+    transition: all 1s;
+    border-radius: 1rem; }
+
+.contenido {
+  display: flex;
+  flex-direction: column; }
+  .contenido .video-container {
+    width: 100%;
+    padding-top: 2rem; }
+    .contenido .video-container .titulo-juego {
+      color: white;
+      text-shadow: 0 0 15px fuchsia;
+      text-align: center;
+      margin-bottom: 1.2rem;
+      font-size: 40px;
+      text-decoration: underline; }
+    .contenido .video-container .video {
+      width: 95%; }
+  .contenido .descripciones {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    width: 100%; }
+    .contenido .descripciones .accordion {
+      width: 95%;
+      display: flex;
+      justify-content: center;
+      flex-direction: column; }
+    .contenido .descripciones .accordion-item {
+      background-color: black;
+      color: white;
+      border-radius: 10px; }
+    .contenido .descripciones .accordion-button {
+      font-size: x-large;
+      font-weight: bold;
+      color: fuchsia;
+      background-color: black; }
+
+.ubicacion-contacto {
+  padding-top: 6.5rem;
+  margin-bottom: 6.5rem; }
+  .ubicacion-contacto .mapa {
+    width: 80%;
+    margin-bottom: 1rem; }
+  .ubicacion-contacto .contacto-images {
+    width: 19rem;
+    margin-top: 2rem;
+    transition: all 1s;
+    border-radius: 1rem; }
+
+.index-main .index-section .contenido-index .index-detalles {
+  font-weight: bold;
+  font-size: larger; }
+
+.index-body {
+  background-image: url("https://media.giphy.com/media/Uqw7f8I9UDiuE2tu1H/giphy.gif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100vh; }
+  .index-body .index-header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; }
+    .index-body .index-header .logo {
+      width: 60px;
+      position: absolute;
+      right: 1rem;
+      top: 0.5rem; }
+  .index-body .index-redir {
+    width: 10rem; }
+    .index-body .index-redir .index-button {
+      font-weight: bold;
+      width: 100%;
+      transition: all 1s;
+      margin-top: 3rem;
+      background-color: fuchsia;
+      color: white;
+      box-shadow: 0px 0px 44px 17px fuchsia;
+      -webkit-box-shadow: 0px 0px 44px 17px fuchsia;
+      -moz-box-shadow: 0px 0px 44px 17px fuchsia; }
+      .index-body .index-redir .index-button:hover {
+        background-color: white;
+        color: black;
+        transform: scale(1.08); }
+      .index-body .index-redir .index-button:active {
+        background-color: orangered; }
+
+.players {
+  margin-bottom: 5rem; }
+  .players .index-section {
+    margin-top: 6rem; }
+    .players .index-section .contenido-index .descrip-local {
+      margin-top: 1rem; }
+      .players .index-section .contenido-index .descrip-local .num-promo .lista-promos {
+        list-style: none;
+        text-align: justify;
+        width: 80%;
+        padding: 0; }
+        .players .index-section .contenido-index .descrip-local .num-promo .lista-promos .promos-subtitulo {
+          margin-top: 1.5rem; }
+        .players .index-section .contenido-index .descrip-local .num-promo .lista-promos .descuentos {
+          color: fuchsia;
+          font-weight: bold;
+          font-size: larger; }
+        .players .index-section .contenido-index .descrip-local .num-promo .lista-promos .imagen-360 {
+          width: 100%; }
+          .players .index-section .contenido-index .descrip-local .num-promo .lista-promos .imagen-360 .oculus {
+            width: 70%;
+            margin-top: 2rem;
+            border: 2px solid white; }
+      .players .index-section .contenido-index .descrip-local .num-promo .dias {
+        font-weight: bold; }
+      .players .index-section .contenido-index .descrip-local .especiales {
+        margin-top: 1.5rem; }
+        .players .index-section .contenido-index .descrip-local .especiales .contenido-especiales {
+          width: 80%; }
+          .players .index-section .contenido-index .descrip-local .especiales .contenido-especiales .especiales-titulo {
+            font-weight: bold; }
+          .players .index-section .contenido-index .descrip-local .especiales .contenido-especiales .texto-index {
+            text-align: justify; }
+            .players .index-section .contenido-index .descrip-local .especiales .contenido-especiales .texto-index .resaltar-especiales {
+              color: fuchsia;
+              font-weight: bold;
+              font-size: larger; }
+    .players .index-section .contenido-index .reservas-oracion {
+      margin-top: 1.5rem; }
+      .players .index-section .contenido-index .reservas-oracion .link-reservas {
+        font-size: larger;
+        font-weight: bold; }
+        .players .index-section .contenido-index .reservas-oracion .link-reservas .redirec-reserva {
+          color: fuchsia; }
+          .players .index-section .contenido-index .reservas-oracion .link-reservas .redirec-reserva:hover {
+            color: orangered; }
+          .players .index-section .contenido-index .reservas-oracion .link-reservas .redirec-reserva:active {
+            color: red; }
+
+@keyframes red {
+  0% {
+    color: red; }
+  100% {
+    color: yellow; } }
+
+@keyframes green {
+  0% {
+    color: green; }
+  100% {
+    color: blue; } }
+
+@keyframes blue {
+  0% {
+    color: blue; }
+  100% {
+    color: red; } }
+
+@keyframes yellow {
+  0% {
+    color: yellow; }
+  100% {
+    color: green; } }
+
+.en-cosntruccion-body {
+  background-image: none;
+  background-color: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center; }
+  .en-cosntruccion-body .construccion {
+    font-family: SuperMario;
+    font-size: 200%;
+    font-weight: bold;
+    text-shadow: -2px 2px 3px white; }
+    .en-cosntruccion-body .construccion .red {
+      animation-name: red;
+      animation-duration: 2s;
+      animation-iteration-count: infinite; }
+    .en-cosntruccion-body .construccion .green {
+      animation-name: green;
+      animation-duration: 2s;
+      animation-iteration-count: infinite; }
+    .en-cosntruccion-body .construccion .blue {
+      animation-name: blue;
+      animation-duration: 2s;
+      animation-iteration-count: infinite; }
+    .en-cosntruccion-body .construccion .yellow {
+      animation-name: yellow;
+      animation-duration: 2s;
+      animation-iteration-count: infinite; }
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: SuperMario;
+  src: url(../fonts/SuperMario.ttf); }
+
+body {
+  background-image: url("https://media.giphy.com/media/sJvz8Qnfly3BOuotGx/giphy.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center; }

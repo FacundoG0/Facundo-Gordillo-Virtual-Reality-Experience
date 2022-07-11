@@ -1,0 +1,65 @@
+header{
+
+    .navbar-toggler{
+        background-color: white;
+    
+        &:active{
+        background-color: orangered;
+        }
+    }
+
+    .offcanvas-header{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        padding-top: 2rem;
+
+        .btn-close{
+            background-color: white;
+            padding-left: 1.5rem;
+            
+            &:active{
+                background-color: red;
+            }
+        
+        }
+    }
+
+    .offcanvas-start{
+        width: 100%;
+        @extend .flex-column-center;
+
+        .offcanvas-body{
+
+            .offcanvas-title{
+                padding-left: 1rem;
+                font-weight: bold;
+                text-decoration: underline;
+                font-size: x-large;
+            }
+
+            .btn{
+                width: 110%;
+                font-weight: bold;
+                margin-top: 1.5rem;
+                
+                &:hover{
+                    background-color: blueviolet;
+                    color: white;
+                }
+    
+                &:active{
+                    background-color: orangered;
+                }
+            
+            }
+        }
+    }
+
+    .logo{
+        width: 60px;
+        }
+
+
+}

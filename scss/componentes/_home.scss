@@ -1,0 +1,34 @@
+.contenido{
+    @extend .flex-column-center;
+    width: 100%;
+    padding-top: 4.5rem;
+    z-index: -1;
+    margin-bottom: 2rem;
+
+    .opcion{
+        margin-top: 2rem;
+        transition: all 1s;
+        border-radius: 1rem;
+        background-color: rgb(40, 0, 50);
+
+        .btn{
+            background-color: white;
+            font-weight: bold;
+            color: black;
+
+            &:hover{
+                border: 1px solid orangered;
+            }
+        
+            &:active{
+                background-color: orangered;
+                color: white;
+            }
+        }
+        
+        &:hover{
+            @extend .shadow;
+        }
+    
+    }
+}

@@ -1,0 +1,26 @@
+@mixin contacto-images{
+    width: 19rem;
+    margin-top: 2rem;
+    transition: all 1s;
+    border-radius: 1rem;
+}
+
+.ubicacion-contacto{
+    padding-top: 6.5rem;
+    @extend .flex-column-center;
+    margin-bottom: 6.5rem;
+
+        .mapa{
+            width: 80%;
+            margin-bottom: 1rem;
+        }
+
+        .contacto-images{
+            @include contacto-images;
+            
+            &:hover{
+                @extend .shadow;
+            }
+        }
+        
+}

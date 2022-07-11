@@ -1,0 +1,96 @@
+@mixin resaltar {
+    color: fuchsia;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.players{
+    @extend .presentaciones;
+    margin-bottom: 5rem;
+
+    .index-section{
+        margin-top: 6rem;
+
+        .contenido-index{
+            .descrip-local{
+                margin-top: 1rem;
+
+                .num-promo{
+                    @extend .flex-column-center;
+    
+                    .lista-promos{
+                        list-style: none;
+                        text-align: justify;
+                        width: 80%;
+                        padding: 0;
+    
+                        .promos-subtitulo{
+                            margin-top: 1.5rem;
+                        }
+        
+                        .descuentos{
+                            @include resaltar();
+                        }
+
+                        .imagen-360{
+                            @extend .flex-column-center;
+                            width: 100%;
+
+                            .oculus{
+                                width: 70%;
+                                margin-top: 2rem;
+                                border: 2px solid white;
+                            }
+                        }
+                    }
+
+                    .dias{
+                        font-weight: bold;
+                    }
+                }
+    
+                .especiales{
+                    margin-top: 1.5rem;
+                    @extend .flex-column-center;
+    
+                    .contenido-especiales{
+                        width: 80%;
+
+                        .especiales-titulo{
+                            font-weight: bold;
+                        }
+    
+                        .texto-index{
+                            text-align: justify;
+    
+                            .resaltar-especiales{
+                                @include resaltar();
+                            }
+                        }
+                    }
+                }
+            }
+
+            .reservas-oracion{
+                margin-top: 1.5rem;
+
+                .link-reservas{
+                    font-size: larger;
+                    font-weight: bold;
+    
+                    .redirec-reserva{
+                        color: fuchsia;
+    
+                        &:hover{
+                            color: orangered;
+                        }
+                        
+                        &:active{
+                            color: red;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+// IMPORTS
+@import "./global";
+@import "./componentes/header";
+@import "./componentes/home";
+@import "./componentes/juegos";
+@import "./componentes/juegos-pages";
+@import "./componentes/contacto";
+@import "./componentes/index";
+@import "./componentes/jugadores-experiencia";
+
+
+@import "./componentes/en-construccion";
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: SuperMario;
+    src: url(../fonts/SuperMario.ttf);
+}
+
+body{
+    background-image: url("https://media.giphy.com/media/sJvz8Qnfly3BOuotGx/giphy.gif");
+    //background-image: url(../images/index/fondo-estrellas.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}

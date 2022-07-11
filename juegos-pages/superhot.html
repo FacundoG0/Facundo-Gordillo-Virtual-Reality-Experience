@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- resto -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/index/logo.webp">
+
+    <title>SuperHot - VRE CBA</title>
+</head>
+
+<body>
+
+<!-- HEADER -->
+
+  <header>
+    <nav class="navbar fixed-top bg-dark">
+
+      <!-- contenedor de todo -->
+      <div class="container-fluid">
+
+        <!-- boton expandir -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+        <!-- logo -->
+        <a href="../index.html"><img src="../images/index/logo.webp" alt="Logo VRE CBA" class="logo"></a>
+
+        <!-- contenedor de canva -->
+        <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+          <!-- titulo -->
+          <div class="offcanvas-header">
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+
+          <!-- contenedor de botones -->
+          <div class="offcanvas-body">
+            <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">Virtual Reality Experience</h5>
+            <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+              <!-- items de contenedor estan enmarcados en LI -->
+              <li class="nav-item">
+                <a href="../index-pages/home.html"><button type="button" class="btn btn-light">Inicio</button></a>
+              </li>
+              <li class="nav-item">
+                <a href="../index-pages/contacto.html"><button type="button" class="btn btn-light">Contacto</button></a>
+              </li>
+              <li>
+                <a href="#"><button type="button" class="btn btn-light">Reservas</button></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+<!-- MAIN -->
+
+  <main>
+    <section class="contenido">
+    
+        <div class="video-container">
+          <h1 class="titulo-juego">SuperHot</h1>
+            <video src="../images/juegos/videos/superhot.webm" controls alt="superhot" class="video"></video>
+        </div>
+
+      <div class="descripciones">
+        <div class="accordion" id="accordion-juego">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Historia
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordion-juego">
+              <div class="accordion-body text-center">
+                Un sujeto (no se sabe su identidad) inicia un viejo ordenador, al hacer esto recibe un mensaje de texto de un amigo y este le informa de un nuevo juego que parece ser innovador y le envía el crack al personaje principal, entonces un archivo llamado superhot.exe es descargado en su ordenador. El jugador lo inicia y parece agradarle la idea, hasta que un extraño fallo en el juego le impide jugar más, su amigo se entera de esto y le envía el crack actualizado. Pronto el sujeto se dará cuenta de que SuperHot es más que un simple juego.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed d-block text-center" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                ¿En qué consiste?
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordion-juego">
+              <div class="accordion-body text-center">
+                En SuperHOT, el jugador es un hombre de una especie de vidrio negro, y tiene un poder en el que el tiempo se mueve solo cuando el jugador se mueve. El jugador tiene enemigos de vidrio rojo, contra los cuales tiene ventaja porque se para el tiempo si el jugador se queda quieto. Para el jugador es fácil defenderse cuando le disparan, ya que como el tiempo se detiene puede ver la trayectoria de los proyectiles a mucha distancia, siendo fácil esquivarlos. El mundo entero es blanco y todo lo que se use contra los enemigos es de vidrio, incluso la munición. El jugador va avanzando mientras acaba con sus enemigos hasta terminar el juego.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+  </section>
+  </main>
+
+    <footer>
+        <a href="../index-pages/juegos.html"><button type="button" class="btn btn-danger">Volver</button></a>
+    </footer>
+
+    
+
+
+
+
+        <!-- JavaScript Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>

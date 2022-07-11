@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- resto -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/index/logo.webp">
+
+    <title>Jugadores y Promos - VRE CBA</title>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <nav class="navbar fixed-top bg-dark">
+
+    <!-- contenedor de todo -->
+    <div class="container-fluid">
+
+      <!-- boton expandir -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- logo -->
+      <a href="../index.html"><img src="../images/index/logo.webp" alt="Logo VRE CBA" class="logo"></a>
+
+      <!-- contenedor de canva -->
+      <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+        <!-- titulo -->
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <!-- contenedor de botones -->
+        <div class="offcanvas-body">
+          <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">Virtual Reality Experience</h5>
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <!-- items de contenedor estan enmarcados en LI -->
+            <li class="nav-item">
+              <a href="../index-pages/home.html"><button type="button" class="btn btn-light">Inicio</button></a>
+            </li>
+            <li class="nav-item">
+              <a href="../index-pages/contacto.html"><button type="button" class="btn btn-light">Contacto</button></a>
+            </li>
+            <li>
+              <a href="./en-construccion.html"><button type="button" class="btn btn-light">Reservas</button></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- MAIN -->
+
+<main class="players">
+
+  <section class="index-section">
+
+    <div class="contenido-index">
+      <h1 class="nombre-local">Promociones</h1>
+
+      <div class="descrip-local">
+      
+        <div class="num-promo">
+          <h4 class="dias">De Lunes a Viernes de 16hs a 18hs</h4>
+          <ul class="lista-promos">
+            <li><span class="descuentos">10% </span>de descuento en tus horas de juego si es tu primera vez en el local, o es tu día de cumpleaños</li>
+            <h6 class="promos-subtitulo">Por cantidad de amigos que vayan:</h6>
+            <li><span class="descuentos">20% </span>de descuento 4 jugadores</li>
+            <li><span class="descuentos">30% </span>de descuento 8 jugadores</li>
+          </ul>
+        </div>
+
+        <hr style="height: 1rem; margin-right: auto; margin-left: auto; width: 80%;">
+
+        <div class="num-promo">
+          <h4 class="dias">De Lunes a Domingos</h4>
+          <ul class="lista-promos">
+            <li><span class="descuentos">Pago mensual: </span>Si queres venir y jugar los días que vos quieras podes abonar una única cuota mensual que te permitirá ser cliente semanal nuestro, y poder usar tus horas sin cola de espera ni reservas previas, y por el simple hecho ser miembro mensual, ¡te regalamos 2 HORAS FREE!</li>
+            <li><span class="descuentos">HORAS FREE: </span>Si durante la semana viniste a jugar entre las 16hs y las 00hs, si sumas 10 horas de juego, ¡te regalamos 2 HORAS FREE!</li>
+          </ul>
+        </div>
+
+        <hr style="margin-right: auto; margin-left: auto; width: 80%;">
+
+        <div class="especiales">
+          <div class="contenido-especiales">
+            <h4 class="especiales-titulo text-center">Eventos Especiales</h4>
+            <p class="texto-index">Cualquier día de la semana es un buen momento para disfrutar con tus amigos o familares<br>
+            Si queres hacer un evento especial, como festejar un cumpleaños, o venir con tu equipo de trabajo podes organizar con nosotros
+            <span class="resaltar-especiales"> ¡un evento ÚNICO E INIGUALABLE!</span> <br>
+          </div>
+        </div>
+
+        <div class="reservas-oracion"><span class="link-reservas">¡HACÉ TUS <a href="./en-construccion.html" class="redirec-reserva">RESERVAS</a> AHORA!</span></div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+    <!-- FOOTER -->
+    
+    <footer>
+        <a href="../index-pages/home.html"><button type="button" class="btn btn-danger">Volver</button></a>
+    </footer>
+
+
+<!-- JavaScript Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>

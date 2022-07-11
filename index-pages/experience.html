@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link de bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <!-- resto -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="icon" href="../images/index/logo.webp">
+
+    <title>360º Experience - VRE CBA</title>
+</head>
+
+<body>
+
+<!-- HEADER -->
+<header>
+  <nav class="navbar fixed-top bg-dark">
+
+    <!-- contenedor de todo -->
+    <div class="container-fluid">
+
+      <!-- boton expandir -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- logo -->
+      <a href="../index.html"><img src="../images/index/logo.webp" alt="Logo VRE CBA" class="logo"></a>
+
+      <!-- contenedor de canva -->
+      <div class="offcanvas offcanvas-start bg-dark" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+
+        <!-- titulo -->
+        <div class="offcanvas-header">
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+
+        <!-- contenedor de botones -->
+        <div class="offcanvas-body">
+          <h5 class="offcanvas-title text-white" id="offcanvasNavbarLabel">Virtual Reality Experience</h5>
+          <ul class="navbar-nav justify-content-center flex-grow-1 pe-3">
+            <!-- items de contenedor estan enmarcados en LI -->
+            <li class="nav-item">
+              <a href="../index-pages/home.html"><button type="button" class="btn btn-light">Inicio</button></a>
+            </li>
+            <li class="nav-item">
+              <a href="../index-pages/contacto.html"><button type="button" class="btn btn-light">Contacto</button></a>
+            </li>
+            <li>
+              <a href="./en-construccion.html"><button type="button" class="btn btn-light">Reservas</button></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+
+<!-- MAIN -->
+
+<main class="players">
+
+  <section class="index-section">
+
+    <div class="contenido-index">
+      <h1 class="nombre-local">Experiencia 360º</h1>
+
+      <div class="descrip-local">
+      
+        <div class="num-promo">
+          <h4 class="dias">Equipamento utilizado</h4>
+          <ul class="lista-promos">
+            <li><span class="descuentos">Oculus Quest 2: </span>Estas gafas de realidad virtual te llevarán hacia otra dimensión. Su calidad de imagen te harán confundir la realidad con la ficción, y su comodidad permiten olvidarte de que llevas las gafas colocadas.
+            El mando es súper ergonómico y aprenderás rápido cómo utilizarlos en el juego que elijas... tranquil@ que nosotros nos tomaremos el trabajo de enseñarte cómo funcionan. <br>
+            A su vez, contamos con auriculares de primera calidad, que te sumergirán en el videojuego que estás jugando, y te dejarán llevar más al limite esta experiencia única. <br> 
+            Si tenés algúna dificultad en la vista ¡no te preocupes! podés usar los Oculus con tus lentes puestos, aunque te recomendamos, en caso de que puedas, traer lentes de contacto para que te sientas más cómodo (y cabe aclarar que, los lentes tienen ajustes de visión, por lo que encontrarás rapidamente la calidad adecuada para vos)</li>
+
+            <div class="imagen-360">
+              <img src="../images/experience/quest-video.gif" alt="oculus quest 2" class="oculus">
+            </div>
+
+            <hr style="margin-right: auto; margin-left: auto; width: 80%;">
+
+            <li><span class="descuentos">Boxes: </span>Contamos con 8 boxes, de los cuales se dispone uno por jugador, y permitiran tener el espacio requerido para libre movimiento, y poder disfrutar al máximo la experiencia de realidad virtual</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+</main>
+
+    <!-- FOOTER -->
+    
+    <footer>
+        <a href="../index-pages/home.html"><button type="button" class="btn btn-danger">Volver</button></a>
+    </footer>
+
+
+<!-- JavaScript Bootstrap -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+</body>
+</html>
